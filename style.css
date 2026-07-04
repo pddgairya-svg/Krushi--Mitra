@@ -1,0 +1,5 @@
+body { font-family: 'Inter', sans-serif; }
+.page-section { display: none; opacity: 0; transition: opacity 0.3s ease; }
+.page-section.active { display: block; opacity: 1; }
+.loader { border-top-color: #16a34a; -webkit-animation: spinner 1.5s linear infinite; animation: spinner 1.5s linear infinite; }
+@keyframes spinner { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
